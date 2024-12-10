@@ -1,0 +1,157 @@
+/* Estilo principal del header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #098524;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    flex-wrap: wrap; /* Permite que los elementos se acomoden en varias filas si es necesario */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.8em; /* Tamaño de fuente adaptable */
+    flex: 1; /* Permite que el h1 ocupe el espacio disponible */
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    flex: 1; /* Asegura que el logo se mantenga a la izquierda */
+}
+
+/* Contenedor del logo */
+.logo {
+    width: 10vw; /* El tamaño relativo con respecto al ancho de la pantalla */
+    height: auto; /* Mantiene la proporción de la imagen */
+    min-width: 50px; /* Tamaño mínimo del contenedor del logo */
+    max-width: 60px;
+    cursor: pointer; /* Cambia el cursor cuando el usuario pasa el ratón */
+    display: flex; /* Usamos flex para asegurar que el contenedor es flexible */
+    justify-content: center; /* Centra la imagen dentro del contenedor */
+}
+
+/* Estilo para la imagen dentro del contenedor */
+.logo img {
+    min-width: 50px; /* Tamaño mínimo de la imagen */
+    max-height: 100%; /* Asegura que la imagen no se haga más alta que el contenedor */
+    width: auto; /* Mantiene la relación de aspecto */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    justify-content: flex-end; /* Alinea los botones a la derecha */
+    width: auto;
+    flex: 1; /* Permite que el contenedor de los botones ocupe el espacio restante */
+}
+
+.auth-button {
+    padding: 10px 24px;
+    font-size: 14px;
+    background-color: #005507;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Asegura que la sección de usuario sea flexible */
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .header {
+        align-items: center; /* Centra los elementos en pantallas pequeñas */
+    }
+
+    .header h1 {
+        font-size: 1.5em; /* Reduce el tamaño del título */
+    }
+
+    .logo {
+        max-width: 50px; /* El tamaño máximo sigue siendo 50px */
+    }
+
+    .auth-buttons {
+        width: 100%; /* Los botones ocupan todo el ancho en pantallas pequeñas */
+        justify-content: center; /* Centra los botones */
+    }
+
+    .auth-button {
+        font-size: 12px; /* Reduce el tamaño de la fuente */
+        padding: 8px 16px; /* Ajusta el padding para pantallas más pequeñas */
+    }
+
+    .header nav ul li {
+        display: block; /* Los enlaces se muestran en bloque para que apunten hacia abajo */
+        margin: 5px 0; /* Espacio más pequeño entre los enlaces */
+    }
+
+    .header nav ul li a {
+        font-size: 1.2em; /* Aumenta ligeramente el tamaño del texto de los enlaces */
+    }
+}
+
+/* Media query para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .header {
+        padding: 15px; /* Ajusta el padding del header */
+    }
+
+    .header h1 {
+        font-size: 1.2em; /* Reduce aún más el tamaño del título */
+    }
+
+    .logo {
+        max-width: 40px; /* Ajusta el tamaño máximo del logo */
+    }
+
+    .auth-buttons {
+        flex-direction: column; /* Los botones se colocan uno debajo del otro */
+        margin: 2px 0; /* Ajusta el margen */
+    }
+
+    .auth-button {
+        font-size: 14px; /* Ajusta el tamaño de la fuente de los botones */
+        padding: 10px 20px; /* Reduce el padding */
+    }
+
+    .header nav ul li {
+        margin: 10px 0; /* Agrega más espacio entre los enlaces */
+    }
+
+    .header nav ul li a {
+        font-size: 1.4em; /* Aumenta el tamaño del texto de los enlaces */
+    }
+}

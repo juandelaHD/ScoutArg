@@ -1,0 +1,46 @@
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 15px; /* Añadimos padding para que no quede pegada a los bordes en pantallas pequeñas */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.search-bar {
+    color: #004906;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease, font-size 0.2s ease; /* Animación para suavizar cambios */
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 768px) {
+    .search-bar-container {
+        max-width: 70%; /* Reducimos el ancho máximo para que se ajuste mejor */
+    }
+
+    .search-bar {
+        font-size: 16px; /* Reducimos el tamaño de la fuente */
+        padding: 8px; /* Reducimos el padding */
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 480px) {
+    .search-bar-container {
+        max-width: 100%; /* Usamos todo el ancho disponible */
+        padding: 0 10px; /* Ajustamos el padding */
+    }
+
+    .search-bar {
+        font-size: 16px; /* Reducimos aún más el tamaño de la fuente */
+        padding: 6px; /* Reducimos el padding para pantallas muy pequeñas */
+        border-radius: 4px; /* Ajustamos el borde redondeado */
+    }
+}

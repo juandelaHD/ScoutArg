@@ -1,0 +1,45 @@
+.menu-button {
+    margin: auto;
+    background-color: var(--navbar-background-color);
+    color: white;
+    width: 45px;
+    height: 45px; /* Añadir altura para asegurar que el botón sea un cuadrado */
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    align-items: center; /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal */
+    border-radius: 50%; /* Para que el botón sea circular */
+}
+
+.menu-button:hover {
+    cursor: pointer;
+    background-color: #00ff22;
+}
+
+.menu-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 75px; 
+    right: 0;
+    background-color: #004906;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100px;
+}
+
+.menu-item {
+    margin: auto;
+    padding: 10px 15px;
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: var(--button-hover-background-color);
+}

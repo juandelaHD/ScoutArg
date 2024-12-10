@@ -1,0 +1,210 @@
+/* Contenedor de la página del jugador */
+.player-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh; 
+}
+
+/* Cabecera del jugador */
+.player-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Imagen del jugador */
+.player-picture {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+}
+
+/* Nombre del jugador */
+.player-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Equipo del jugador */
+.player-team {
+    font-size: 28px;
+    font-weight: bold;
+    color: #edf764;
+}
+
+/* Detalles del jugador */
+.player-details {
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.player-details span {
+    padding: 5px 10px; 
+}
+
+/* Botón para agregar opinión */
+.add-opinion-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-opinion-btn:hover {
+    background-color: #0cac19;
+}
+
+/* Botón de agregar opinión */
+.add-opinion-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 10%;
+    background-color: #4CAF50; /* Color de fondo similar al de cancel-button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Transición para efectos de hover */
+}
+
+.add-opinion-btn:hover {
+    background-color: #0cac19; /* Color de fondo cuando el mouse pasa por encima */
+    transform: scale(1.05); /* Efecto de agrandar al pasar el mouse */
+}
+
+/* Botón de cancelar */
+.cancel-button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #db5d59; /* Color de fondo */
+    color: white;
+    border-radius: 5px; /* Redondear los bordes */
+    transition: background-color 0.3s, transform 0.2s; /* Transición para efectos de hover */
+}
+
+.cancel-button:hover {
+    background-color: #df1811; /* Color de fondo cuando el mouse pasa por encima */
+    transform: scale(1.05); /* Efecto de agrandar al pasar el mouse */
+}
+
+
+/* Ajustes para pantallas medianas */
+@media (max-width: 768px) {
+    /* Ajustar el tamaño de la imagen del jugador */
+    .player-picture {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Reducir el tamaño del nombre y el equipo */
+    .player-name {
+        font-size: 28px;
+    }
+
+    .player-team {
+        font-size: 24px;
+    }
+
+    /* Ajustar el espaciado de los detalles */
+    .player-details {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 16px;
+    }
+
+    /* Botón para agregar opinión */
+    .add-opinion-btn {
+        width: 50%; /* Hacer el botón más grande en pantallas pequeñas */
+    }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 480px) {
+    /* Ajustar la imagen del jugador */
+    .player-picture {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* Reducir más el tamaño del nombre y equipo */
+    .player-name {
+        font-size: 24px;
+    }
+
+    .player-team {
+        font-size: 20px;
+    }
+
+    /* Hacer que los detalles se apilen verticalmente */
+    .player-details {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    /* Hacer que el botón de agregar opinión ocupe el 100% del ancho */
+    .add-opinion-btn {
+        width: 80%;
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    /* Hacer que el botón de cancelar ocupe más espacio */
+    .cancel-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+/* Ajustes para pantallas muy pequeñas (menos de 380px) */
+@media (max-width: 380px) {
+    /* Ajustar la imagen del jugador aún más */
+    .player-picture {
+        width: 70px;
+        height: 70px;
+    }
+
+    /* Reducir aún más el tamaño del nombre y el equipo */
+    .player-name {
+        font-size: 20px;
+    }
+
+    .player-team {
+        font-size: 18px;
+    }
+
+    /* Asegurarse que los detalles estén bien distribuidos */
+    .player-details {
+        gap: 5px;
+        font-size: 12px;
+    }
+
+    /* Ajustar el botón de agregar opinión */
+    .add-opinion-btn {
+        width: 70%;
+        font-size: 12px;
+    }
+
+    /* Ajustar el botón de cancelar */
+    .cancel-button {
+        width: 70%;
+        font-size: 12px;
+    }
+}

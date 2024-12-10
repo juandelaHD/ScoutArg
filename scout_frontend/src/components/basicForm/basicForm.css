@@ -1,0 +1,200 @@
+/* Contenedor principal del formulario */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Evita que el contenido se desborde */
+
+}
+/* Grupo de inputs */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;  /* Centra los elementos horizontalmente */
+    justify-content: center;  /* Centra los elementos verticalmente si es necesario */
+    width: 100%; /* Asegura que ocupe el 100% del ancho disponible */
+}
+
+/* Estilo de los inputs */
+.form-group input {
+    padding: 12px;
+    font-size: 16px;
+    color: #004906;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%; /* Asegura que los inputs ocupen todo el ancho disponible */
+    max-width: 400px; /* Limita el ancho máximo de los inputs si es necesario */
+}
+
+.form-group label {
+    font-size: 19px; /* Tamaño de fuente inicial */
+    color: #004906; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    margin-top: 10px; /* Espacio sobre del label */
+    margin-bottom: -5px; /* Espacio debajo del label */
+    width: 100%; /* Asegura que el label ocupe todo el ancho disponible */
+}
+
+.button-container-form button{
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #004906;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;	
+}
+
+/* Estilo del botón */
+button {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #004906;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0cac19;
+}
+
+/* Estilo del texto de error */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Contenedor de botones */
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* Estilo para la carga de archivos */
+.file-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.custom-file-upload {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #4CAF50;
+}
+
+.custom-file-upload:hover {
+    opacity: 0.9;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+/* Estilo para el select dropdown */
+.dropdown-container {
+    position: relative;
+}
+
+.form-window {
+    padding: 2rem; /* Aumentamos el padding para dar más espacio interior */
+    margin: 30px; /* Añadimos un margen alrededor del formulario */
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #004906;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 768px) {
+    /* Ajustar inputs y botones en pantallas pequeñas */
+    .form-group input, .custom-file-upload, button, select {
+        font-size: 14px; /* Disminuir el tamaño del texto en pantallas pequeñas */
+    }
+
+    .button-container {
+        width: 100%; /* Asegura que los botones ocupen el 100% del ancho */
+    }
+
+    .button-container-form {
+        width: 100%; /* Asegura que los botones ocupen el 100% del ancho */
+    }
+
+    .form-container {
+        width: 100%; /* Asegura que el formulario ocupe el 100% del ancho */
+    }
+
+    .custom-file-upload {
+        font-size: 16px; /* Ajusta el tamaño del botón de carga */
+    }
+
+    .form-group label {
+        font-size: 18px; /* Reducir tamaño en pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .form-group input, .custom-file-upload, button, select {
+        font-size: 14px; /* Tamaño aún más pequeño en pantallas muy pequeñas */
+    }
+
+    button {
+        width: 100%; /* Asegura que el botón ocupe el 100% del ancho */
+    }
+
+    .form-container {
+        padding: 15px; /* Ajuste de padding */
+    }
+
+    .form-group label {
+        font-size: 18px; /* Tamaño aún más pequeño en pantallas muy pequeñas */
+    }
+}
+
+@media (max-width: 380px) {
+    .form-group input, .custom-file-upload, button, select {
+        font-size: 12px; /* Tamaño aún más pequeño en pantallas muy pequeñas */
+        padding: 8px; /* Reducir el padding */
+    }
+
+    .form-group label {
+        font-size: 14px; /* Ajusta el tamaño del texto de los labels */
+    }
+
+    .custom-file-upload {
+        font-size: 12px; /* Ajusta el tamaño del botón de carga */
+    }
+    
+}

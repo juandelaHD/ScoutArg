@@ -1,0 +1,72 @@
+.footer {
+    background-color: var(--footer-background-color);
+    color: white;
+    padding: 20px 0; /* Solo aplica padding vertical para evitar bordes no deseados */
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box; /* Asegura que el padding no cause desplazamiento */
+    margin: 0; /* Elimina márgenes adicionales */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto; /* Centra el contenido dentro del footer */
+    padding: 0 10px; /* Agrega un pequeño padding horizontal para evitar que el contenido toque los bordes */
+}
+
+.footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.footer nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Ajustes responsivos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px; /* Menos espacio en pantallas pequeñas */
+    }
+
+    .footer nav ul {
+        text-align: center; /* Centra los elementos en pantallas pequeñas */
+    }
+
+    .footer nav ul li {
+        display: inline-block; /* Los items de la lista se apilan uno debajo del otro */
+        margin: 10px 0; /* Espaciado vertical entre los links */
+    }
+
+    .footer nav ul li a {
+        font-size: 1em; /* Reduce el tamaño del texto */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 10px; /* Espaciado reducido para pantallas aún más pequeñas */
+    }
+
+    .footer nav ul li {
+        display: block; /* Los elementos de la lista se apilan verticalmente */
+        margin: 10px 0; /* Mayor separación entre los elementos */
+    }
+
+    .footer nav ul li a {
+        font-size: 0.9em; /* Texto más pequeño */
+    }
+}

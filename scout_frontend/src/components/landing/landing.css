@@ -1,0 +1,110 @@
+/* Contenedor principal de la página */
+.landing {
+    display: flex;
+    flex-direction: column; /* Apila elementos verticalmente */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    min-height: 100vh;
+    padding: 0; /* Elimina espacio adicional */
+    margin: 0; /* Elimina espacio adicional */
+    box-sizing: border-box; /* Asegura que el padding no cause overflow */
+}
+
+/* Contenedor del logo */
+.logo-container {
+    display: flex; /* Usamos Flexbox para alinear los elementos */
+    justify-content: center; /* Centra horizontalmente el contenido dentro del contenedor */
+    align-items: center; /* Centra verticalmente el contenido dentro del contenedor */
+    margin: 0; /* Evita márgenes adicionales */
+    padding: 0; /* Elimina espacio adicional */
+    height: 100%; /* Asegura que el contenedor ocupe todo el alto disponible si es necesario */
+}
+
+/* Botones principales */
+.landing-home-button {
+    background-color: #55a02a;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid var(--footer-background-color);
+    align-content: center;
+    padding: 15px 40px; /* Espaciado más cómodo */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: auto; /* Ajusta la altura automáticamente */
+    font-size: 1.6em;
+    width: 350px; /* Ancho fijo para los botones */
+    margin: 10px 0; /* Espaciado entre el botón y otros elementos */
+}
+
+.landing-home-button:hover {
+    background-color: #7ccc4d;
+}
+
+/* Contenedor de texto */
+.text-container {
+    font-size: 1.5em;
+    color: #ffffff;
+    max-width: 600px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.text-container p {
+    font-size: 1.5em; /* Tamaño inicial del texto */
+    color: #ffffff; /* Color del texto */
+    max-width: 90%; /* Limita el ancho máximo al 90% del contenedor */
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+    line-height: 1.6; /* Mejora la legibilidad aumentando el espacio entre líneas */
+    text-align: center; /* Alinea el texto al centro */
+    word-wrap: break-word; /* Evita desbordamiento de texto largo */
+}
+
+.title-container {
+    font-size: 2.5em;
+    color: #ffffff;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Ajustes responsivos para dispositivos pequeños */
+@media (max-width: 768px) {
+    .logo-container {
+        padding: 10px; /* Agrega un pequeño padding al contenedor en pantallas medianas */
+    }
+
+    .logo-container img {
+        max-width: 80%; /* Reduce el tamaño del logo */
+    }
+
+    .landing-home-button {
+        padding: 10px 20px; /* Espaciado reducido */
+        font-size: 1em; /* Tamaño del texto más pequeño */
+        width: 80%; /* Ajusta el ancho de los botones para pantallas medianas */
+    }
+
+    .text-container, .title-container, .text-container p {
+        font-size: 1.2em; /* Texto más pequeño */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-container {
+        padding: 5px; /* Agrega un poco menos de padding en pantallas muy pequeñas */
+    }
+
+    .logo-container img {
+        max-width: 70%; /* Reduce el tamaño del logo */
+    }
+
+    .landing-home-button {
+        padding: 10px 20px; /* Espaciado reducido */
+        font-size: 1em; /* Tamaño del texto más pequeño */
+        width: 80%; /* Ajusta el ancho de los botones para pantallas pequeñas */
+    }
+
+    .text-container, .title-container, .text-container p {
+        font-size: 1em; /* Texto más pequeño */
+    }
+}

@@ -1,0 +1,198 @@
+:root {
+    --primary-color: #004906;
+    --secondary-color: #4dad0d;
+    --text-light: rgb(255, 255, 255);
+    --text-dark: black;
+    --background-color: black;
+    --footer-background-color: var(--primary-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('/public/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    color: var(--text-light);
+}
+
+/* Estilo para el contenedor principal */
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Contenedor centrado */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Encabezado */
+.App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: var(--text-light);
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+/* Enlaces */
+.link, .App-link {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.link:hover, .App-link:hover {
+    text-decoration: underline;
+}
+
+.link:focus, .App-link:focus {
+    outline: 2px dashed var(--secondary-color);
+    outline-offset: 4px;
+}
+
+/* Ventana de formulario */
+.form-window {
+    color: var(--primary-color);
+    background-color: var(--text-light);
+    padding: 2rem;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    border: 10px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    
+}
+
+.form-window h1 {
+    color: var(--text-dark);
+    margin-block-start: 0.50em;
+    margin-block-end: 0.50em;
+}
+
+/* Animaciones */
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+/* Responsividad para pantallas medianas */
+@media (max-width: 768px) {
+    /* Ajustes del encabezado */
+    .App-header {
+        font-size: calc(8px + 2vmin); /* Ajusta el tamaño de la fuente proporcionalmente */
+    }
+
+    /* Ajuste de la ventana del formulario */
+    .form-window {
+        padding: 1.5rem;
+        border-width: 5px;
+        max-width: fit-content;
+    }
+
+    /* Ajustes generales para mejorar la visibilidad y el espaciado en pantallas medianas */
+    .form-container {
+        width: 100%; /* Asegura que el formulario ocupe todo el ancho disponible */
+        padding: 20px;
+    }
+
+    .form-group input, .custom-file-upload, button, select {
+        font-size: 14px; /* Disminuir el tamaño de texto en dispositivos medianos */
+        padding: 10px; /* Ajusta el padding de los inputs y botones */
+    }
+
+    .form-group label {
+        font-size: 16px; /* Disminuir tamaño de los labels */
+    }
+
+    /* Contenedor de botones */
+    .button-container {
+        width: 100%;
+    }
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 480px) {
+    /* Logo y elementos grandes */
+    .App-logo {
+        height: 30vmin; /* Ajusta el tamaño del logo para pantallas pequeñas */
+    }
+
+    /* Ajuste de la ventana del formulario */
+    .form-window {
+        padding: 1rem;
+        border-width: 4px;
+        max-width: fit-content;
+    }
+
+    /* Ajuste del fondo */
+    body {
+        background-size: auto 100%;
+        background-attachment: scroll;
+    }
+
+    /* Formulario y sus elementos */
+    .form-container {
+        padding: 15px; /* Espaciado más pequeño */
+    }
+
+    .form-group input, .custom-file-upload, button, select {
+        font-size: 14px; /* Texto más pequeño */
+        width: 100%; /* Asegura que los inputs y botones ocupen el 100% del ancho */
+    }
+
+    /* Ajuste de los labels */
+    .form-group label {
+        font-size: 14px; /* Ajusta el tamaño del texto de los labels */
+    }
+}
+
+/* Media query para pantallas muy pequeñas (móviles en orientación vertical) */
+@media (max-width: 380px) {
+    /* Ajusta el tamaño de los botones e inputs */
+    .form-group input, .custom-file-upload, button, select {
+        font-size: 12px; /* Tamaño aún más pequeño en pantallas pequeñas */
+        padding: 8px; /* Reducir el padding */
+    }
+
+    .App-header {
+        font-size: calc(6px + 2vmin); /* Ajusta más el tamaño del encabezado */
+    }
+
+    .form-container {
+        padding: 10px; /* Asegura que no haya mucho espacio en pantallas pequeñas */
+    }
+}

@@ -1,0 +1,178 @@
+/* Contenedor de la página del equipo */
+.team-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* Opciones de tabla de visualización */
+.display-table-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.display-table-option {
+    margin-top: 15px;
+    background-color: #1ba727cc;
+    padding: 10px 40px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.display-table-option:hover {
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.display-table-option.active {
+    background-color: #0d745a33;
+    border: 1px solid #0d745a;
+    color: white;
+    cursor: pointer;
+}
+
+/* Cabecera del equipo */
+.team-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Logo del equipo */
+.team-logo {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+/* Nombre del equipo */
+.team-name {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.followers {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* Botón para agregar un equipo (cuando es administrador) */
+.admin-add-team-button {
+    padding: 20px;
+}
+
+/* Contenedor de botones */
+.button-container {
+    margin: auto;
+    display: flex;          
+    justify-content: center; 
+    gap: 25px;             
+    margin-top: 20px;      
+}
+
+/* Acciones del modal */
+.modal-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+/* Botón de confirmación */
+.confirm-button {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+/* Botón de cancelación */
+.cancel-button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #db5d59; 
+    color: white;
+}
+
+.cancel-button:hover{
+    background-color: #df1811; 
+}
+
+/* Ajustes Responsivos */
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 768px) {
+    /* Ajustamos el tamaño del logo y el nombre del equipo */
+    .team-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .team-name {
+        font-size: 28px; /* Reducir el tamaño de la fuente del nombre del equipo */
+    }
+
+    /* Las opciones de la tabla deberían apilarse verticalmente en pantallas pequeñas */
+    .display-table-options {
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        gap: 15px;
+    }
+
+    /* Ajustes en los botones de la página de equipo */
+    .admin-add-team-button {
+        padding: 15px; /* Reducir el padding de los botones */
+    }
+
+    .button-container {
+        gap: 15px;
+        margin-top: 15px;
+    }
+}
+
+/* Ajustes para pantallas más pequeñas (menos de 480px) */
+@media (max-width: 480px) {
+    /* Ajustamos aún más el tamaño del logo y nombre */
+    .team-logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .team-name {
+        font-size: 24px; /* Reducir aún más el tamaño de la fuente */
+    }
+
+    /* Los botones deben ser más grandes y ocupar el 100% del ancho */
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    /* Las opciones de la tabla de visualización también se apilan y son más pequeñas */
+    .display-table-options {
+        max-width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .display-table-option {
+        font-size: 14px; /* Reducir el tamaño de la fuente de las opciones */
+        padding: 8px 20px;
+    }
+
+    /* Modificar el tamaño del botón de confirmación y cancelación */
+    .confirm-button,
+    .cancel-button {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+}
