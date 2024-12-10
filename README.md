@@ -4,12 +4,57 @@ Scout ARG is a web application designed for scouting and reviewing players from 
 
 ## About This Project  
 
-This web application was developed as part of the "Database" course in the Computer Engineering program at the Faculty of Engineering, University of Buenos Aires. The project demonstrates the integration of a frontend and backend system to deliver a dynamic and user-friendly experience for exploring football talent.  
+This web application was developed as part of the "Database" course in the Software Engineering program at the Faculty of Engineering, University of Buenos Aires. The project demonstrates the integration of a frontend and backend system to deliver a dynamic and user-friendly experience for exploring football talent.
 
 ## Features  
+- **Search Teams**: Explore and search for information about football teams.
 - **Search Players**: Filter and find players from various teams and divisions across Argentina.  
-- **Player Profiles**: Detailed statistics, performance history, and team information.  
-- **Community Reviews**: Share and view feedback from the football community.  
+- **Player and Team Profiles**: Detailed profiles with a lot of information for both players and teams.  
+- **Follow Players and Teams**: Users can follow their favorite players and teams.  
+- **Community Reviews**: Share and view feedback from the football community about players and teams.
+
+---
+
+### Page Preview  
+Below are screenshots showcasing various parts of the application:  
+
+#### Landing Page  
+This is the starting page of the application, where users can log in and start exploring:  
+<div style="text-align: center;">
+  <img src="img/landing_page.png" alt="Landing Page" width="600px">  
+</div>
+
+#### Teams Overview  
+This section allows users to explore and filter teams, seeing the team's overall details:  
+<div style="text-align: center;">
+  <img src="img/team_op.png" alt="Teams Overview" width="600px">  
+</div>
+
+#### Team Profiles  
+Detailed pages for each team, showcasing their players:  
+<div style="text-align: center;">
+  <img src="img/team_page.png" alt="Team Page" width="600px">  
+</div>
+
+#### Players Overview  
+The section for viewing and filtering players from different teams and divisions across Argentina:  
+<div style="text-align: center;">
+  <img src="img/players_page.png" alt="Player Page" width="600px">  
+</div>  
+
+#### Player Profiles  
+Detailed pages displaying each player’s profile:  
+<div style="text-align: center;">
+  <img src="img/player_op.png" alt="Players Overview" width="600px">  
+</div>
+
+#### Opinions and Comments  
+Users can view and share opinions and feedback about teams or players’ performances:  
+<div style="text-align: center;">
+  <img src="img/opinion_comments.png" alt="Opinions and Comments" width="600px">  
+</div>
+
+---
 
 ## Tech Stack  
 - **Frontend**: Built with [React](https://reactjs.org/), delivering a responsive and dynamic user interface.  
@@ -36,7 +81,9 @@ Please refer to those documents for step-by-step instructions to set up the appl
 | Theo          | Lijs        | 109472     | tlijs@fi.uba.ar        |  
 
 ## License  
-This project is licensed under the MIT License.  
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---  
+
 Developed with passion for Argentine football and a commitment to technical excellence. ⚽✨  
