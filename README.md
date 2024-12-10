@@ -7,8 +7,6 @@
   </h1>
 </div> 
 
-## Introduction
-
 Scout ARG is a web application designed for scouting and reviewing players from the lower divisions of Argentine football. This project allows users to search for players, view detailed profiles, and share opinions about their performances, fostering a collaborative and insightful scouting experience.  
 
 ## About This Project  
