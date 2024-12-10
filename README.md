@@ -3,7 +3,7 @@
     Scout ARG - Web Application
     <br />
     <br />
-      <img src="img/favicon.ico" alt="ScoutArg Logo" style="width:30%;">
+      <img src="img/favicon.ico" alt="ScoutArg Logo" style="width:20%;">
   </h1>
 </div> 
 
