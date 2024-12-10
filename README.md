@@ -79,9 +79,9 @@ Please refer to those documents for step-by-step instructions to set up the appl
 
 ### Acknowledgments  
 
-I would like to extend a special mention to [**Joaquin Batemarco**](https://github.com/BA73C0) for their exceptional work and contributions to the development of the frontend.
+I would like to extend a special mention to [**Joaquin Batemarco**](https://github.com/BA73C0) for his exceptional work and contributions to the development of the frontend.
 
-Additionally, my gratitude goes to [**Theo Lijs**](https://github.com/LijsTh) for their outstanding support in ensuring the completeness and functionality of the backend. 
+Additionally, my gratitude goes to [**Theo Lijs**](https://github.com/LijsTh) for his outstanding support in ensuring the completeness and functionality of the backend. 
 
 ---  
 
