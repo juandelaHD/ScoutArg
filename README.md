@@ -1,4 +1,13 @@
-# Scout ARG  
+<div align="center">
+  <h1 align="center">
+    Scout ARG - Web Application
+    <br />
+    <br />
+      <img src="img/favicon.ico" alt="ScoutArg Logo" style="width:15%;">
+  </h1>
+</div> 
+
+## Introduction
 
 Scout ARG is a web application designed for scouting and reviewing players from the lower divisions of Argentine football. This project allows users to search for players, view detailed profiles, and share opinions about their performances, fostering a collaborative and insightful scouting experience.  
 
@@ -20,39 +29,28 @@ Below are screenshots showcasing various parts of the application:
 
 #### Landing Page  
 This is the starting page of the application, where users can log in and start exploring:  
-<div style="text-align: center;">
-  <img src="img/landing_page.png" alt="Landing Page" width="600px">  
-</div>
+<img src="img/landing_page.png" alt="Landing Page">  
+
 
 #### Teams Overview  
 This section allows users to explore and filter teams, seeing the team's overall details:  
-<div style="text-align: center;">
-  <img src="img/team_op.png" alt="Teams Overview" width="600px">  
-</div>
+<img src="img/team_op.png" alt="Teams Overview">  
 
 #### Team Profiles  
 Detailed pages for each team, showcasing their players:  
-<div style="text-align: center;">
-  <img src="img/team_page.png" alt="Team Page" width="600px">  
-</div>
+<img src="img/team_page.png" alt="Team Page">  
 
 #### Players Overview  
 The section for viewing and filtering players from different teams and divisions across Argentina:  
-<div style="text-align: center;">
-  <img src="img/players_page.png" alt="Player Page" width="600px">  
-</div>  
+<img src="img/players_page.png" alt="Player Page">  
 
 #### Player Profiles  
 Detailed pages displaying each player’s profile:  
-<div style="text-align: center;">
-  <img src="img/player_op.png" alt="Players Overview" width="600px">  
-</div>
+<img src="img/player_op.png" alt="Players Overview">  
 
 #### Opinions and Comments  
 Users can view and share opinions and feedback about teams or players’ performances:  
-<div style="text-align: center;">
-  <img src="img/opinion_comments.png" alt="Opinions and Comments" width="600px">  
-</div>
+<img src="img/opinion_comments.png" alt="Opinions and Comments">  
 
 ---
 
