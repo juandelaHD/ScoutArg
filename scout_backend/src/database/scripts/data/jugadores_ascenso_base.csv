@@ -1,10 +1,330 @@
-Juan Pérez;25;Delantero;9;Chacarita
-Carlos Gómez;28;Defensor;4;Quilmes
-Matías Rodríguez;22;Mediocampista;8;Ferro
-Lucas Martínez;24;Arquero;1;Atlanta
-Federico Sánchez;27;Delantero;11;Temperley
-Andrés Ramírez;23;Mediocampista;10;Estudiantes (RC)
-Javier López;29;Defensor;3;San Martín (T)
-Roberto García;26;Delantero;7;Gimnasia (J)
-Diego Fernández;21;Arquero;12;Brown de Adrogué
-Fernando Torres;30;Defensor;2;Aldosivi
+Emiliano González;27;Arquero;1;Almagro
+Christian Limousin;33;Arquero;23;Almagro
+Marcos Pinto;31;Defensor;5;Almagro
+Ramiro Ríos;29;Defensor;4;Almagro
+Aldo Rimbelitti;21;Defensor;3;Almagro
+Gianfranco Joannaz;21;Defensor;2;Almagro
+Luis Jerez Silva;36;Mediocampista;8;Almagro
+Julián Vitale;29;Mediocampista;10;Almagro
+Patricio Cucchi;32;Delantero;9;Almagro
+Axel Rodríguez;28;Delantero;14;Almagro
+David Puca;22;Mediocampista;7;Almagro
+Roberto Ramírez;29;Arquero;1;All Boys
+Tiago Libares;28;Arquero;12;All Boys
+Hernán Grana;40;Defensor;2;All Boys
+Jonathan Ferrari;38;Defensor;3;All Boys
+Maximiliano Coronel;36;Defensor;4;All Boys
+Yago De Vito;24;Defensor;5;All Boys
+Matías Martínez;26;Mediocampista;6;All Boys
+Lucas Miranda;23;Mediocampista;7;All Boys
+Ariel Silva;29;Delantero;8;All Boys
+Pablo Suárez;27;Delantero;9;All Boys
+José López;30;Delantero;10;All Boys
+Marcelo Miño;25;Arquero;1;Ferro
+Rodrigo Saracho;28;Arquero;12;Ferro
+Nahuel Arena;24;Defensor;4;Ferro
+Lucas Faggioli;25;Defensor;5;Ferro
+Patricio Boolsen;24;Defensor;6;Ferro
+Alan Lorenzo;24;Defensor;13;Ferro
+Hernán Grana;37;Defensor;7;Ferro
+Matías López;26;Mediocampista;8;Ferro
+Juan Pérez;22;Mediocampista;10;Ferro
+Lucas Rodríguez;24;Delantero;11;Ferro
+Christian Sosa;29;Delantero;14;Ferro
+Esteban Glellel;26;Arquero;1;Quilmes
+Lautaro Herrera;20;Arquero;12;Quilmes
+Leonel Vangioni;38;Defensor;3;Quilmes
+Maximiliano Padilla;30;Defensor;4;Quilmes
+Fernando Torrent;33;Defensor;5;Quilmes
+Agustín Bindella;24;Defensor;6;Quilmes
+Francisco Flores;23;Defensor;2;Quilmes
+Leandro Díaz;21;Mediocampista;7;Quilmes
+Juan Cortés;25;Mediocampista;8;Quilmes
+Tomás Sandoval;24;Delantero;9;Quilmes
+Lucas Peralta;26;Delantero;11;Quilmes
+José Salvá;38;Arquero;1;Deportivo Morón
+Lucas Finochietto;28;Arquero;12;Deportivo Morón
+Emanuel Lazza;31;Defensor;6;Deportivo Morón
+Marco Cortave;33;Defensor;2;Deportivo Morón
+Manuel Bittolo;35;Defensor;11;Deportivo Morón
+Leandro Ramírez;21;Defensor;13;Deportivo Morón
+Emiliano Franco;30;Mediocampista;8;Deportivo Morón
+Sergio Kubiszyn;22;Mediocampista;5;Deportivo Morón
+Mariano Ballini;36;Mediocampista;14;Deportivo Morón
+Matías Prado;25;Delantero;9;Deportivo Morón
+Fernando Agüero;28;Delantero;7;Deportivo Morón
+Alan Sosa;29;Arquero;1;Patronato
+Juan Mazza;28;Arquero;12;Patronato
+Fernando Moreyra;35;Defensor;4;Patronato
+Ian Escobar;29;Defensor;2;Patronato
+Julián Navas;31;Defensor;3;Patronato
+Gonzalo Asís;29;Defensor;5;Patronato
+Agustín Ramos;23;Defensor;6;Patronato
+Juan Pérez;22;Mediocampista;7;Patronato
+Carlos Gómez;27;Mediocampista;8;Patronato
+Mario Martínez;25;Delantero;9;Patronato
+Luis Fernández;30;Delantero;10;Patronato
+José Pérez;28;Arquero;1;Atlanta
+Lucas Ríos;23;Arquero;12;Atlanta
+Alejandro Donatti;34;Defensor;2;Atlanta
+Bruno Lemie;26;Defensor;3;Atlanta
+Sergio Martínez;25;Defensor;5;Atlanta
+Julio López;31;Defensor;4;Atlanta
+Paulo Gómez;27;Mediocampista;6;Atlanta
+Matías Zaracho;29;Mediocampista;8;Atlanta
+Iván Torres;24;Mediocampista;7;Atlanta
+Ezequiel Fernández;30;Delantero;9;Atlanta
+Nicolás Castro;32;Delantero;10;Atlanta
+Marcelo Ojeda;34;Arquero;1;Arsenal
+Ignacio Herrera;29;Arquero;12;Arsenal
+Leandro Díaz;30;Defensor;2;Arsenal
+Matías Gómez;25;Defensor;3;Arsenal
+Javier Martínez;33;Defensor;4;Arsenal
+Bruno Urribarri;27;Defensor;5;Arsenal
+Diego Martín;28;Mediocampista;6;Arsenal
+Lucas Pérez;23;Mediocampista;8;Arsenal
+Juan Pablo;26;Mediocampista;7;Arsenal
+Gonzalo Franco;31;Delantero;9;Arsenal
+Claudio López;30;Delantero;10;Arsenal
+Fabio Álvarez;28;Arquero;1;Central Norte
+Sebastián Ramos;26;Arquero;12;Central Norte
+Esteban Merlo;27;Defensor;2;Central Norte
+Lucas Valencia;30;Defensor;3;Central Norte
+Marcelo Roldán;31;Defensor;4;Central Norte
+Cristián Ortiz;29;Defensor;5;Central Norte
+Pedro González;25;Mediocampista;6;Central Norte
+Juan Silva;26;Mediocampista;7;Central Norte
+Jorge Díaz;30;Mediocampista;8;Central Norte
+Alan Mendoza;28;Delantero;9;Central Norte
+Víctor Pérez;32;Delantero;10;Central Norte
+Federico Varela;30;Arquero;1;Chacarita Juniors
+Franco Ramírez;27;Arquero;12;Chacarita Juniors
+Nico Sánchez;24;Defensor;2;Chacarita Juniors
+Joel Agustín;29;Defensor;3;Chacarita Juniors
+Ramón Díaz;35;Defensor;5;Chacarita Juniors
+Mauro Ortiz;31;Defensor;4;Chacarita Juniors
+Andrés Gómez;28;Mediocampista;6;Chacarita Juniors
+Hernán Medina;32;Mediocampista;7;Chacarita Juniors
+Lucas Rodríguez;26;Mediocampista;8;Chacarita Juniors
+Emiliano Alfaro;34;Delantero;9;Chacarita Juniors
+Martín Rodríguez;30;Delantero;10;Chacarita Juniors
+Andrés Díaz;29;Arquero;1;Chaco For Ever
+Juan Pérez;24;Arquero;12;Chaco For Ever
+Lucas Cortés;28;Defensor;2;Chaco For Ever
+Víctor Martínez;32;Defensor;3;Chaco For Ever
+Sergio Blanco;30;Defensor;4;Chaco For Ever
+Pablo Torres;26;Defensor;5;Chaco For Ever
+Carlos Sánchez;27;Mediocampista;6;Chaco For Ever
+Hugo Morales;31;Mediocampista;7;Chaco For Ever
+Bruno López;25;Mediocampista;8;Chaco For Ever
+Leonel González;33;Delantero;9;Chaco For Ever
+Cristián Díaz;28;Delantero;10;Chaco For Ever
+Lucas Molina;29;Arquero;1;Defensores de Belgrano
+Enrique Bravo;31;Arquero;12;Defensores de Belgrano
+Nico Carrega;26;Defensor;2;Defensores de Belgrano
+Pablo González;30;Defensor;3;Defensores de Belgrano
+Martín Fernández;32;Defensor;4;Defensores de Belgrano
+Fernando Pérez;25;Defensor;5;Defensores de Belgrano
+Andrés Martínez;27;Mediocampista;6;Defensores de Belgrano
+Cristián Gómez;33;Mediocampista;7;Defensores de Belgrano
+Axel Rojas;24;Mediocampista;8;Defensores de Belgrano
+Walter Álvarez;35;Delantero;9;Defensores de Belgrano
+Miguel Torres;28;Delantero;10;Defensores de Belgrano
+Rubén Pérez;28;Arquero;1;Defensores Unidos
+Lucas Gómez;26;Arquero;12;Defensores Unidos
+Carlos Caro;24;Defensor;2;Defensores Unidos
+Bruno Torres;27;Defensor;3;Defensores Unidos
+Mario Díaz;30;Defensor;4;Defensores Unidos
+Pablo Fernández;25;Defensor;5;Defensores Unidos
+José Martínez;29;Mediocampista;6;Defensores Unidos
+Cristián López;27;Mediocampista;7;Defensores Unidos
+Gustavo Pérez;33;Mediocampista;8;Defensores Unidos
+Víctor Álvarez;31;Delantero;9;Defensores Unidos
+Sergio González;28;Delantero;10;Defensores Unidos
+Diego González;27;Arquero;1;Deportivo Madryn
+Ezequiel Martínez;30;Arquero;12;Deportivo Madryn
+Nicolás Pérez;24;Defensor;2;Deportivo Madryn
+Marco Martínez;31;Defensor;3;Deportivo Madryn
+Óscar Ramírez;28;Defensor;4;Deportivo Madryn
+Emanuel Torres;29;Defensor;5;Deportivo Madryn
+Alan Martínez;26;Mediocampista;6;Deportivo Madryn
+Juan Carlos;27;Mediocampista;7;Deportivo Madryn
+Lautaro Suárez;25;Mediocampista;8;Deportivo Madryn
+Martín Pérez;32;Delantero;9;Deportivo Madryn
+Víctor Martínez;30;Delantero;10;Deportivo Madryn
+Mariano Herrera;27;Arquero;1;Deportivo Maipú
+Pablo Álvarez;30;Arquero;12;Deportivo Maipú
+Julián Duarte;25;Defensor;2;Deportivo Maipú
+Gustavo Villar;29;Defensor;3;Deportivo Maipú
+Diego Suárez;32;Defensor;4;Deportivo Maipú
+Alan Torres;28;Defensor;5;Deportivo Maipú
+Fernando Martínez;31;Mediocampista;6;Deportivo Maipú
+Lucas Gómez;24;Mediocampista;7;Deportivo Maipú
+Cristián Pérez;27;Mediocampista;8;Deportivo Maipú
+Diego Álvarez;30;Delantero;9;Deportivo Maipú
+Nicolás Ramírez;26;Delantero;10;Deportivo Maipú
+Damián Pérez;32;Arquero;1;Estudiantes (Caseros)
+Bruno Martínez;24;Arquero;12;Estudiantes (Caseros)
+Leonel Rivas;28;Defensor;2;Estudiantes (Caseros)
+Alexis Díaz;27;Defensor;3;Estudiantes (Caseros)
+Sergio Álvarez;34;Defensor;4;Estudiantes (Caseros)
+Pablo Torres;26;Defensor;5;Estudiantes (Caseros)
+Matías García;30;Mediocampista;6;Estudiantes (Caseros)
+Juan González;27;Mediocampista;7;Estudiantes (Caseros)
+Alfredo López;29;Mediocampista;8;Estudiantes (Caseros)
+Walter Silva;31;Delantero;9;Estudiantes (Caseros)
+Carlos Fernández;28;Delantero;10;Estudiantes (Caseros)
+Óscar Herrera;31;Arquero;1;Estudiantes (Río Cuarto)
+Diego González;29;Arquero;12;Estudiantes (Río Cuarto)
+Javier Suárez;28;Defensor;2;Estudiantes (Río Cuarto)
+José Sánchez;25;Defensor;3;Estudiantes (Río Cuarto)
+Manuel Pérez;27;Defensor;4;Estudiantes (Río Cuarto)
+Ernesto Herrera;30;Defensor;5;Estudiantes (Río Cuarto)
+Walter Martínez;34;Mediocampista;6;Estudiantes (Río Cuarto)
+Raúl Torres;31;Mediocampista;7;Estudiantes (Río Cuarto)
+Cristián Díaz;33;Mediocampista;8;Estudiantes (Río Cuarto)
+José Álvarez;32;Delantero;9;Estudiantes (Río Cuarto)
+Julio Ramírez;29;Delantero;10;Estudiantes (Río Cuarto)
+Martín López;30;Arquero;1;Gimnasia (Jujuy)
+Lucas Herrera;27;Arquero;12;Gimnasia (Jujuy)
+Walter Gómez;28;Defensor;2;Gimnasia (Jujuy)
+Diego Martínez;31;Defensor;3;Gimnasia (Jujuy)
+Facundo Torres;24;Defensor;4;Gimnasia (Jujuy)
+Pablo Santos;29;Defensor;5;Gimnasia (Jujuy)
+Darío Álvarez;26;Mediocampista;6;Gimnasia (Jujuy)
+Martín Pérez;32;Mediocampista;7;Gimnasia (Jujuy)
+Nicolás Gómez;30;Mediocampista;8;Gimnasia (Jujuy)
+Ezequiel Bonifacio;29;Delantero;9;Gimnasia (Jujuy)
+Santiago Gabarini;28;Delantero;10;Gimnasia (Jujuy)
+Facundo Altamirano;30;Arquero;1;Gimnasia (Mendoza)
+Cristián Herrera;29;Arquero;12;Gimnasia (Mendoza)
+Alan Aguirre;28;Defensor;2;Gimnasia (Mendoza)
+Bruno Moraes;32;Defensor;3;Gimnasia (Mendoza)
+Iván Ruiz;27;Defensor;4;Gimnasia (Mendoza)
+Héctor Ramírez;31;Defensor;5;Gimnasia (Mendoza)
+Mario Ferreyra;29;Mediocampista;6;Gimnasia (Mendoza)
+Salvador Sánchez;25;Mediocampista;7;Gimnasia (Mendoza)
+Tomás González;28;Mediocampista;8;Gimnasia (Mendoza)
+Luis Solignac;32;Delantero;9;Gimnasia (Mendoza)
+Facundo Pons;30;Delantero;10;Gimnasia (Mendoza)
+Roberto Ramírez;34;Arquero;1;Gimnasia (Tiro)
+Mariano Chávez;29;Arquero;12;Gimnasia (Tiro)
+Juan Pérez;30;Defensor;2;Gimnasia (Tiro)
+José Martínez;27;Defensor;3;Gimnasia (Tiro)
+Claudio Fernández;28;Defensor;4;Gimnasia (Tiro)
+Luis Torres;31;Defensor;5;Gimnasia (Tiro)
+Mario Gómez;25;Mediocampista;6;Gimnasia (Tiro)
+Julio Díaz;29;Mediocampista;7;Gimnasia (Tiro)
+Pablo Sánchez;24;Mediocampista;8;Gimnasia (Tiro)
+Leonardo Moreno;32;Delantero;9;Gimnasia (Tiro)
+Daniel Suárez;30;Delantero;10;Gimnasia (Tiro)
+Lucas Ferreira;30;Arquero;1;Güemes (SDE)
+Matías Pérez;29;Arquero;12;Güemes (SDE)
+Nicolás González;26;Defensor;2;Güemes (SDE)
+Valentín Álvarez;28;Defensor;3;Güemes (SDE)
+Rodrigo Gómez;30;Defensor;4;Güemes (SDE)
+Mario Fernández;31;Defensor;5;Güemes (SDE)
+Matías Torres;27;Mediocampista;6;Güemes (SDE)
+Carlos Gómez;29;Mediocampista;7;Güemes (SDE)
+Iván Morales;24;Mediocampista;8;Güemes (SDE)
+Julio González;32;Delantero;9;Güemes (SDE)
+Rubén López;30;Delantero;10;Güemes (SDE)
+Hernán López;30;Arquero;1;Los Andes
+Diego Torres;28;Arquero;12;Los Andes
+Pablo Martínez;27;Defensor;2;Los Andes
+Ricardo Álvarez;30;Defensor;3;Los Andes
+Luis Rojas;25;Defensor;4;Los Andes
+Fabián Ruiz;29;Defensor;5;Los Andes
+Cristián Gómez;32;Mediocampista;6;Los Andes
+Walter Díaz;28;Mediocampista;7;Los Andes
+Juan Rodríguez;26;Mediocampista;8;Los Andes
+Marcelo Ortega;31;Delantero;9;Los Andes
+Nicolás Pérez;33;Delantero;10;Los Andes
+Claudio Martínez;29;Arquero;1;Mitre (SdE)
+Leonardo Ruiz;26;Arquero;12;Mitre (SdE)
+Fernando Pérez;31;Defensor;2;Mitre (SdE)
+Walter Álvarez;28;Defensor;3;Mitre (SdE)
+Diego Gómez;27;Defensor;4;Mitre (SdE)
+Carlos Martínez;25;Defensor;5;Mitre (SdE)
+Jesús Martínez;26;Mediocampista;6;Mitre (SdE)
+Sergio Ramos;30;Mediocampista;7;Mitre (SdE)
+Alejandro Pérez;28;Mediocampista;8;Mitre (SdE)
+Emanuel Fernández;31;Delantero;9;Mitre (SdE)
+Luis Gómez;24;Delantero;10;Mitre (SdE)
+Leonardo Ferreyra;30;Arquero;1;Nueva Chicago
+Nicolás González;27;Arquero;12;Nueva Chicago
+Pablo Sánchez;28;Defensor;2;Nueva Chicago
+César Martínez;25;Defensor;3;Nueva Chicago
+Martín Álvarez;29;Defensor;4;Nueva Chicago
+Alan Rodríguez;31;Defensor;5;Nueva Chicago
+Cristian González;33;Mediocampista;6;Nueva Chicago
+Nicolás Pérez;26;Mediocampista;7;Nueva Chicago
+Gabriel Martínez;30;Mediocampista;8;Nueva Chicago
+Jonathan Álvarez;32;Delantero;9;Nueva Chicago
+Javier Torres;28;Delantero;10;Nueva Chicago
+Matías García;28;Arquero;1;Racing (Córdoba)
+Pablo Pérez;26;Arquero;12;Racing (Córdoba)
+Adrián Martínez;27;Defensor;2;Racing (Córdoba)
+Sergio Pérez;30;Defensor;3;Racing (Córdoba)
+Diego González;25;Defensor;4;Racing (Córdoba)
+Juan Álvarez;29;Defensor;5;Racing (Córdoba)
+Carlos Martínez;27;Mediocampista;6;Racing (Córdoba)
+Gustavo Torres;31;Mediocampista;7;Racing (Córdoba)
+Francisco González;33;Mediocampista;8;Racing (Córdoba)
+Rodrigo Álvarez;30;Delantero;9;Racing (Córdoba)
+Martín Pérez;26;Delantero;10;Racing (Córdoba)
+Lucas Fernández;29;Arquero;1;San Martín (Tucumán)
+Eduardo Ramírez;27;Arquero;12;San Martín (Tucumán)
+Daniel Álvarez;30;Defensor;2;San Martín (Tucumán)
+Alberto Martínez;31;Defensor;3;San Martín (Tucumán)
+Juan Ramón;25;Defensor;4;San Martín (Tucumán)
+Sergio Torres;28;Defensor;5;San Martín (Tucumán)
+Maximiliano Suárez;27;Mediocampista;6;San Martín (Tucumán)
+Facundo Pérez;29;Mediocampista;7;San Martín (Tucumán)
+Gustavo Aguilar;30;Mediocampista;8;San Martín (Tucumán)
+Martín Martínez;32;Delantero;9;San Martín (Tucumán)
+Lucas González;26;Delantero;10;San Martín (Tucumán)
+Matías González;28;Arquero;1;San Miguel
+Cristián Martínez;30;Arquero;12;San Miguel
+Carlos Pérez;31;Defensor;2;San Miguel
+Nicolás Ramírez;29;Defensor;3;San Miguel
+Daniel Gómez;26;Defensor;4;San Miguel
+Bruno Rodríguez;32;Defensor;5;San Miguel
+Gabriel Martínez;27;Mediocampista;6;San Miguel
+Víctor Pérez;28;Mediocampista;7;San Miguel
+Miguel Álvarez;30;Mediocampista;8;San Miguel
+Matías Torres;31;Delantero;9;San Miguel
+Fernando Gómez;25;Delantero;10;San Miguel
+Martín López;28;Arquero;1;San Telmo
+Luis Martínez;30;Arquero;12;San Telmo
+Gastón Pérez;29;Defensor;2;San Telmo
+Sergio Rodríguez;31;Defensor;3;San Telmo
+Diego Álvarez;25;Defensor;4;San Telmo
+Pablo Martínez;32;Defensor;5;San Telmo
+Alberto Gómez;30;Mediocampista;6;San Telmo
+Emiliano Ruiz;27;Mediocampista;7;San Telmo
+Nicolás Torres;28;Mediocampista;8;San Telmo
+Maximiliano Martínez;33;Delantero;9;San Telmo
+Jorge Pérez;26;Delantero;10;San Telmo
+Hugo Moreno;29;Arquero;1;Temperley
+Bruno Fernández;27;Arquero;12;Temperley
+Raúl Torres;26;Defensor;2;Temperley
+Nicolás Pérez;30;Defensor;3;Temperley
+Miguel Álvarez;31;Defensor;4;Temperley
+Federico Martínez;28;Defensor;5;Temperley
+Germán Pérez;27;Mediocampista;6;Temperley
+Iván López;29;Mediocampista;7;Temperley
+Jorge Torres;28;Mediocampista;8;Temperley
+Leonardo Pérez;31;Delantero;9;Temperley
+Alberto Torres;25;Delantero;10;Temperley
+Juan Martínez;30;Arquero;1;Tristán Suárez
+Cristian Pérez;27;Arquero;12;Tristán Suárez
+Sergio Torres;31;Defensor;2;Tristán Suárez
+Daniel Álvarez;30;Defensor;3;Tristán Suárez
+Carlos Martínez;28;Defensor;4;Tristán Suárez
+Pablo Pérez;29;Defensor;5;Tristán Suárez
+Claudio Rodríguez;30;Mediocampista;6;Tristán Suárez
+Fabián Álvarez;27;Mediocampista;7;Tristán Suárez
+Andrés Pérez;25;Mediocampista;8;Tristán Suárez
+Maximiliano Torres;32;Delantero;9;Tristán Suárez
+Gustavo Martínez;26;Delantero;10;Tristán Suárez

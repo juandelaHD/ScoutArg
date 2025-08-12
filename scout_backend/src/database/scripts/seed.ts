@@ -1,21 +1,35 @@
+/* eslint-disable prettier/prettier */
 import { PrismaClient } from '@prisma/client';
 import * as fs from 'fs';
 
 const prisma = new PrismaClient();
 
 async function main() {
+    try {
+        await prisma.$connect();
+        console.log('Conexión a la base de datos exitosa!');
+    } catch (error) {
+        console.error('Error conectando a la base de datos:', error);
+        return;
+    }
+
     // Leer y procesar el archivo de equipos
     const teamsData = fs.readFileSync('./src/database/scripts/data/clubes_ascenso_base.txt', 'utf-8');
     const teams = teamsData.split(';').map((team) => team.trim());
 
     // Insertar equipos en la base de datos
-    const teamPromises = teams.map((teamName) =>
-        prisma.teams.create({
-            data: {
-                name: teamName,
-            },
-        }),
-    );
+    const teamPromises = teams.map(async (teamName) => {
+        try {
+            console.log(`Insertando equipo: ${teamName}`);
+            return await prisma.teams.create({
+                data: {
+                    name: teamName,
+                },
+            });
+        } catch (error) {
+            console.error(`Error insertando equipo "${teamName}":`, error);
+        }
+    });
 
     // Esperar que todos los equipos se inserten
     await Promise.all(teamPromises);
